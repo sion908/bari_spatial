@@ -16,5 +16,6 @@ MonoBehaviour:
   sku: 
   packageName: Feature Demo
   thumbnail: {fileID: 2800000, guid: ec6e61a8993a64290991cfc322ec43ea, type: 3}
+  savedProjectSettings: {fileID: 0}
   worldID: 
   scene: {fileID: 102900000, guid: 5a4e4d605920f4afdbe35a0942b30555, type: 3}

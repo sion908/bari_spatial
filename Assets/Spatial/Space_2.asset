@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5621e5ad1b9084f8bb66de8251cfd5a3, type: 3}
+  m_Name: Space_2
+  m_EditorClassIdentifier: 
+  version: 0
+  sku: 6491e49feeaa3229ede90480
+  packageName: room_1
+  thumbnail: {fileID: 2800000, guid: eb9ee99c469b0e742b606199838b3f2c, type: 3}
+  savedProjectSettings: {fileID: 0}
+  worldID: QbDY6dVt_Dlkq9uiOiS0b
+  scene: {fileID: 102900000, guid: f57b46915106c594295241edebcadc84, type: 3}
