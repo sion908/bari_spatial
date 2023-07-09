@@ -49,7 +49,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 8be2a3853481f404483462b32a6b38d9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 60718eab24f49c4458c3a7bcef568b3a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex_0:
@@ -73,7 +73,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalTex:
-        m_Texture: {fileID: 2800000, guid: 7c26e8ceb93661849862720e5f957c05, type: 3}
+        m_Texture: {fileID: 2800000, guid: bc5bba566081f6a4a84cf498115aac51, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -115,7 +115,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaClip: 0
-    - _Blend: 0.201
+    - _Blend: 0.312
     - _BlendAmount: 0.471
     - _BumpScale: 1
     - _ClearCoatMask: 0
@@ -130,7 +130,7 @@ Material:
     - _Glossiness: 0.195
     - _Glossiness_2: 0.5
     - _GlossyReflections: 0
-    - _Main_Scale: 9.03
+    - _Main_Scale: 5.37
     - _Metallic: 0
     - _Metallic_2: 0.169
     - _OcclusionStrength: 1
@@ -142,7 +142,7 @@ Material:
     - _SpecularHighlights: 1
     - _SpecularLevel: 97.3
     - _SrcBlend: 1
-    - _Sub_Scale: 6.42
+    - _Sub_Scale: 4.2
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
