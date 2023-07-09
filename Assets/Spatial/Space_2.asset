@@ -16,6 +16,7 @@ MonoBehaviour:
   sku: 6491e49feeaa3229ede90480
   packageName: room_1
   thumbnail: {fileID: 2800000, guid: eb9ee99c469b0e742b606199838b3f2c, type: 3}
-  savedProjectSettings: {fileID: 0}
+  savedProjectSettings: {fileID: 11400000, guid: b77536de131f7804a92d51b8d763867f,
+    type: 2}
   worldID: QbDY6dVt_Dlkq9uiOiS0b
   scene: {fileID: 102900000, guid: f57b46915106c594295241edebcadc84, type: 3}

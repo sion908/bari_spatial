@@ -83,39 +83,39 @@ Shader "Custom/ground"
 
 
                 // for normal
-                float3 ligDirection = normalize(_WorldSpaceLightPos0.xyz); //シーンのディレクショナルライト方向を取得
-                fixed3 ligColor = _LightColor0.xyz; //ディレクショナルライトのカラーを取得
+                // float3 ligDirection = normalize(_WorldSpaceLightPos0.xyz); //シーンのディレクショナルライト方向を取得
+                // fixed3 ligColor = _LightColor0.xyz; //ディレクショナルライトのカラーを取得
                 
                 
-                fixed4 main_normal = tex2D(_NormalTex, i.uv*_Main_Scale);
-                fixed4 sub_normal = tex2D(_SubNormalTex, i.uv*_Sub_Scale);
-                fixed4 col_Normal = main * (1-mask) + sub * mask;
-                half3 normalmap = UnpackNormal(col_Normal); //ノーマルマップをプラットフォームに合わせて自動解釈
-                float3 normal = (i.tangent * normalmap.x) + (i.binormal * normalmap.y) + (i.normal * normalmap.z); //ノーマルマップをもとに法線を合成
+                // fixed4 main_normal = tex2D(_NormalTex, i.uv*_Main_Scale);
+                // fixed4 sub_normal = tex2D(_SubNormalTex, i.uv*_Sub_Scale);
+                // fixed4 col_Normal = main * (1-mask) + sub * mask;
+                // half3 normalmap = UnpackNormal(col_Normal); //ノーマルマップをプラットフォームに合わせて自動解釈
+                // float3 normal = (i.tangent * normalmap.x) + (i.binormal * normalmap.y) + (i.normal * normalmap.z); //ノーマルマップをもとに法線を合成
 
 
                 //////////ランバート拡散反射
-                float t = dot(normal, ligDirection); //ライト方向と法線方向で内積を計算
-                t = max(0, t); //計算した内積のうち、t < 0は必要ないのでクランプ
+                // float t = dot(normal, ligDirection); //ライト方向と法線方向で内積を計算
+                // t = max(0, t); //計算した内積のうち、t < 0は必要ないのでクランプ
 
-                float3 diffuseLig = ligColor * t; //ディフューズカラーを計算。内積が0に近いほど色が黒くなる
+                // float3 diffuseLig = ligColor * t; //ディフューズカラーを計算。内積が0に近いほど色が黒くなる
                 //////////
 
                 //////////フォン鏡面反射
-                float3 refVec = reflect(-ligDirection, normal); //ライト方向と法線方向から反射ベクトルを計算
+                // float3 refVec = reflect(-ligDirection, normal); //ライト方向と法線方向から反射ベクトルを計算
 
-                float3 toEye = _WorldSpaceCameraPos - i.worldPos; //カメラからの視線ベクトルを計算
-                toEye = normalize(toEye); //視線ベクトルを正規化
+                // float3 toEye = _WorldSpaceCameraPos - i.worldPos; //カメラからの視線ベクトルを計算
+                // toEye = normalize(toEye); //視線ベクトルを正規化
 
-                t = dot(refVec, toEye); //反射ベクトルと視線ベクトルで内積を計算
-                t = max(0, t); //計算した内積のうち、t < 0は必要ないのでクランプ
-                t = pow(t, _SpecularLevel); //反射の絞りを調整
+                // t = dot(refVec, toEye); //反射ベクトルと視線ベクトルで内積を計算
+                // t = max(0, t); //計算した内積のうち、t < 0は必要ないのでクランプ
+                // t = pow(t, _SpecularLevel); //反射の絞りを調整
 
-                float3 specularLig = ligColor * t; //内積が１に近いほど照り返しが強いとみなし、ライトカラーを強く乗算
+                // float3 specularLig = ligColor * t; //内積が１に近いほど照り返しが強いとみなし、ライトカラーを強く乗算
                 //////////
 
                 // float4 finalColor = tex2D(_MainTex, i.uv); //カラーテクスチャからサンプリング
-                col.xyz *= (specularLig + diffuseLig); //ランバートとフォンの計算結果を乗算
+                // col.xyz *= (specularLig + diffuseLig); //ランバートとフォンの計算結果を乗算
                 // apply fog
                 // UNITY_APPLY_FOG(i.fogCoord, col);
                 return col;

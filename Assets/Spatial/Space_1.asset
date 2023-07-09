@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 0
   sku: 64854ebab3cadd5fd00025e4
-  packageName: bari
+  packageName: s
   thumbnail: {fileID: 2800000, guid: 49f34e5f0d5c80643a8a770ed7246e65, type: 3}
   savedProjectSettings: {fileID: 11400000, guid: b77536de131f7804a92d51b8d763867f,
     type: 2}

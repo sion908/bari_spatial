@@ -15,7 +15,7 @@ MonoBehaviour:
   version: 0
   sku: 649ac3e0e628981d1108c564
   packageName: lab
-  thumbnail: {fileID: 2800000, guid: 49f34e5f0d5c80643a8a770ed7246e65, type: 3}
+  thumbnail: {fileID: 2800000, guid: dd71dae2f9f1b874cb228f981c2e1b57, type: 3}
   savedProjectSettings: {fileID: 11400000, guid: b77536de131f7804a92d51b8d763867f,
     type: 2}
   worldID: QbDY6dVt_Dlkq9uiOiS0b

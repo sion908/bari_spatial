@@ -1448,14 +1448,14 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &364543922424788696
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6387479468715652632}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 63bed13eb67defa40b73374cd245abd8, type: 3}
+  m_Avatar: {fileID: 9000000, guid: c60c3f328a1ff0540bfaacd190f52250, type: 3}
   m_Controller: {fileID: 9100000, guid: fe1c3331f2dc0234489511e159042c27, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
@@ -1465,7 +1465,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &9160050531381357348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1478,6 +1479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5eda7893486c54c8799aa665b8cafa31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  savedProjectSettings: {fileID: 0}
   defaultAnimSetType: 0
   animOverrides:
     idle: {fileID: 0}
@@ -1490,6 +1492,8 @@ MonoBehaviour:
     jumpLandStanding: {fileID: 0}
     jumpLandWalking: {fileID: 0}
     jumpLandRunning: {fileID: 0}
+    jumpLandHigh: {fileID: 0}
+    jumpMultiple: {fileID: 0}
     fall: {fileID: 0}
     sit: {fileID: 0}
 --- !u!1 &6628601162205113341
