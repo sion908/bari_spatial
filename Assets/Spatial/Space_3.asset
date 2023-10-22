@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5621e5ad1b9084f8bb66de8251cfd5a3, type: 3}
+  m_Name: Space_3
+  m_EditorClassIdentifier: 
+  version: 0
+  sku: 650259b94b3117f026aab65e
+  packageName: lab
+  thumbnail: {fileID: 2800000, guid: 92aa2bce9289509499b8720e378ece7f, type: 3}
+  savedProjectSettings: {fileID: 11400000, guid: b4d3f3931508d4e3381693ee23f6fe04,
+    type: 2}
+  worldID: m46qwh28adyb01qf7hof6
+  scene: {fileID: 102900000, guid: 54e1838aa63cbdb4a89285cd2ff975b5, type: 3}

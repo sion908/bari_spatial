@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5621e5ad1b9084f8bb66de8251cfd5a3, type: 3}
+  m_Name: Space_2
+  m_EditorClassIdentifier: 
+  version: 0
+  sku: 650254011c72341c21a804d7
+  packageName: wizard's room
+  thumbnail: {fileID: 2800000, guid: e4ae910cd5c579a44a520e9ca9290fb1, type: 3}
+  savedProjectSettings: {fileID: 0}
+  worldID: m46qwh28adyb01qf7hof6
+  scene: {fileID: 102900000, guid: f57b46915106c594295241edebcadc84, type: 3}
