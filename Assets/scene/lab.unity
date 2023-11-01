@@ -6024,6 +6024,7 @@ GameObject:
   - component: {fileID: 4345168840695941769}
   - component: {fileID: 2562631277028249553}
   - component: {fileID: 1317020628250657162}
+  - component: {fileID: 6378638999259189589}
   - component: {fileID: 6378638999259189588}
   m_Layer: 0
   m_Name: desk
@@ -6043,8 +6044,21 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.022124242, y: 0.011528761, z: 0.0014884786}
-  m_Center: {x: 0.0007567367, y: 0.0057643605, z: -0.0018201089}
+  m_Size: {x: 0.026299618, y: 0.00554962, z: 0.00506487}
+  m_Center: {x: 2.0949671e-10, y: 0.01037498, z: -0.000032322077}
+--- !u!65 &6378638999259189589
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6378638999259189587}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.026299618, y: 0.011803508, z: 0.0014404351}
+  m_Center: {x: -1.7370033e-10, y: 0.0062230593, z: -0.0018445359}
 --- !u!1 &6507901976520711888
 GameObject:
   m_ObjectHideFlags: 0
