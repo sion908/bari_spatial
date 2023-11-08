@@ -7231,7 +7231,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91e5540c005bc42af99edd4ba5f5de09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  version: 1
   size: 7.769067
+  size2D: {x: 15.538134, y: 7.769067}
   dotsVisible: 0
 --- !u!135 &509315590
 SphereCollider:
@@ -23741,6 +23743,7 @@ GameObject:
   - component: {fileID: 1920265847}
   - component: {fileID: 1920265846}
   - component: {fileID: 1920265845}
+  - component: {fileID: 1920265848}
   m_Layer: 0
   m_Name: field_collide (1)
   m_TagString: Untagged
@@ -23827,6 +23830,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1920265843}
   m_Mesh: {fileID: 2856698789545564981, guid: e3a1c2628505dd9499fea0d8102738d6, type: 3}
+--- !u!114 &1920265848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920265843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1f97c1fd52194028935a550c5f95b5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementMaterial: {fileID: 0}
 --- !u!1001 &1926493027
 PrefabInstance:
   m_ObjectHideFlags: 0
