@@ -15,7 +15,7 @@ MonoBehaviour:
   version: 1
   sku: 654bb1c71de38e1257b6243a
   packageName: VGU_presentation_room
-  thumbnail: {fileID: 2800000, guid: e4ae910cd5c579a44a520e9ca9290fb1, type: 3}
+  thumbnail: {fileID: 2800000, guid: e2119a86af0bd8a4a818e3f4839c5f70, type: 3}
   savedProjectSettings: {fileID: 11400000, guid: b4d3f3931508d4e3381693ee23f6fe04,
     type: 2}
   worldID: m46qwh28adyb01qf7hof6
