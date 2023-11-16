@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcc1c66bb2ec14ab791591a8bf43d353, type: 3}
+  m_Name: SpaceTemplate_1
+  m_EditorClassIdentifier: 
+  version: 0
+  sku: 654a522c5e0c9ad92407abda
+  packageName: room_SpaceTemplate
+  thumbnail: {fileID: 0}
+  savedProjectSettings: {fileID: 11400000, guid: b4d3f3931508d4e3381693ee23f6fe04,
+    type: 2}
+  variants:
+  - name: room_ST
+    id: 30df5affdeff40c188dee05452cd49ce
+    scene: {fileID: 102900000, guid: 183b8d7a4ca432e4db5237a5e5bdc8d3, type: 3}
+    thumbnail: {fileID: 2800000, guid: e4ae910cd5c579a44a520e9ca9290fb1, type: 3}
+    miniThumbnail: {fileID: 2800000, guid: e4ae910cd5c579a44a520e9ca9290fb1, type: 3}
+    thumbnailColor: {r: 0, g: 0.8206582, b: 1, a: 1}
