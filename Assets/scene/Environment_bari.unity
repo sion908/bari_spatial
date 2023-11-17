@@ -18068,6 +18068,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6227275661549503297, guid: 9612c53619ba7e346b418ec64c947244,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 7931198258659611161, guid: 0461beb79fbfa4735867cac3f1f81cd2,
+        type: 2}
     - target: {fileID: 6227275661549503324, guid: 9612c53619ba7e346b418ec64c947244,
         type: 3}
       propertyPath: m_Name
@@ -28607,6 +28613,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 611892700632013892, guid: 73177af45b76c034295c03d220236ad0,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -1007645819942920252, guid: 0461beb79fbfa4735867cac3f1f81cd2,
+        type: 2}
     - target: {fileID: 766305009481830952, guid: 73177af45b76c034295c03d220236ad0,
         type: 3}
       propertyPath: m_Name
@@ -28672,6 +28684,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8850688395989187901, guid: 73177af45b76c034295c03d220236ad0,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -1007645819942920252, guid: 0461beb79fbfa4735867cac3f1f81cd2,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73177af45b76c034295c03d220236ad0, type: 3}
 --- !u!4 &7036326321810549041
