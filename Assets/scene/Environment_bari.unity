@@ -5330,7 +5330,7 @@ Transform:
   - {fileID: 1615636247}
   - {fileID: 1727224529}
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &369899622
 PrefabInstance:
@@ -18142,6 +18142,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6227275661549503297, guid: 9612c53619ba7e346b418ec64c947244,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 4eae49328a81a4a06865d22d228fcac2, type: 3}
     - target: {fileID: 6227275661549503297, guid: 9612c53619ba7e346b418ec64c947244,
         type: 3}
       propertyPath: OutputAudioMixerGroup
