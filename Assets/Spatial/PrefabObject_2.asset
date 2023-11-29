@@ -16,5 +16,6 @@ MonoBehaviour:
   sku: 652b5bfdc80de5206edaedad
   packageName: VGU_coin
   thumbnail: {fileID: 2800000, guid: 99447ddc1bf7d2b41b8b00008576d797, type: 3}
-  savedProjectSettings: {fileID: 0}
+  savedProjectSettings: {fileID: 11400000, guid: b4d3f3931508d4e3381693ee23f6fe04,
+    type: 2}
   prefab: {fileID: 9218842005636430222, guid: 2841900a82c8aa44cb1c0fefa08f112a, type: 3}
